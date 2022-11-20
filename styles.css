@@ -1,0 +1,207 @@
+/* Color Palette
+red: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557 
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  text-align: center;
+  font-family: Nunito;
+  color: #f1faee;
+}
+
+/* HERO SECTION */
+
+#hero {
+  background-image: url("images/london-bridge.jpg");
+  background-size: cover;
+  padding: 200px 0 400px 0;
+}
+
+#title {
+  margin-bottom: 100px;
+  font-size: 80px;
+  letter-spacing: 1px;
+  text-shadow: 5px -5px 5px #e63946;
+}
+h2 {
+  font-size: 50px;
+}
+
+.btn {
+  width: 150px;
+  margin-bottom: 100px;
+  padding: 6px 16px;
+  border-radius: 30px;
+  border-style: none;
+  background: #a8dadc;
+}
+
+.btn:hover {
+  background-color: #e63946;
+}
+
+/* ACTIVITIES SECTION */
+.heading {
+  background: #a8dadc;
+  padding-top: 60px;
+  color: #1d3557;
+}
+
+.free {
+  color: #e63946;
+  text-decoration: underline;
+}
+
+.activities {
+  background-color: #a8dadc;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  padding-left: 30px;
+  padding-right: 50px;
+  color: #1d3557;
+  display: flex;
+  flex-direction: row;
+}
+
+.col {
+  margin: 20px;
+  padding: 30px;
+}
+
+.activities-img {
+  width: 200px;
+  border-radius: 50%;
+  margin-bottom: 30px;
+}
+
+.activities h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  text-decoration: underline;
+}
+
+.btn-activities {
+  width: 150px;
+  margin-top: 20px;
+  margin-bottom: 100px;
+  padding: 6px 16px;
+  border-radius: 30px;
+  border-style: none;
+  background: transparent;
+  border: 2px solid #e63946;
+  color: #1d3557;
+}
+
+.btn-activities:hover {
+  background-color: #e63946;
+  color: #f1faee;
+}
+
+/* GUIDE SECTION */
+.avatar {
+  width: 150px;
+}
+
+.card {
+  background-color: ;
+  width: 400px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  padding: 20px;
+  justify-content: space-around;
+  text-align: center;
+  background: #f1faee;
+  color: #1d3557;
+  border-bottom: 6px solid #e63946;
+}
+
+/* FOOTER STYLE */
+
+.footer {
+  margin-top: 150px;
+  width: 100%;
+  padding: 100px 15%;
+  background-color: #e63946;
+  color: #a8dadc;
+  display: flex;
+}
+
+.footer div {
+  text-align: center;
+}
+
+.col-2 {
+  flex-grow: 2;
+}
+
+.footer div h3 {
+  font-weight: 500;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+
+.footer div h3:hover {
+  color: #1d3557;
+}
+
+.col-1 a {
+  display: block;
+  text-decoration: none;
+  color: #a8dadc;
+}
+
+.col-1 a:hover {
+  color: #1d3557;
+}
+
+form input {
+  width: 300px;
+  height: 45px;
+  border-radius: 30px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  outline: none;
+  border: none;
+}
+
+form button {
+  background: transparent;
+  border: 2px solid #a8dadc;
+  color: #a8dadc;
+  border-radius: 30px;
+  padding: 10px 50px;
+  font-size: 12px;
+  cursor: pointer;
+  letter-spacing: 1px;
+}
+
+form button:hover {
+  background-color: #1d3557;
+}
+
+.social-icons {
+  margin-top: 30px;
+}
+
+.social-icons i {
+  font-size: 35px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.social-icons i:hover {
+  color: #1d3557;
+}
